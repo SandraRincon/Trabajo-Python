@@ -1,13 +1,13 @@
-# Analisis exploratorio de datos y  limpieza de datos sobre la venta de vehículos usados de una página Web.
+# Limpieza y análisis de datos  sobre la venta de vehículos usados de una página Web.
 
 # Motivación y Descripción : 
 
-La venta de carros  a nivel mundial  ha sido recurrente atraves de los años. Los carros son un  medios de transporte personal muy útil para las personas.Sin embargo, en ciertos casos la persona no cuentan con los recursos necesarios para comprar un carro cero kilómetros dadas circunstancias externas. Es por esto que la motivación a realizar este trabajo  fue explorar mediante una base de datos  las características de los carros comprados  de segunda  en una página Web. Mediante técnicas de Python. 
+La venta de carros  a nivel mundial  ha sido recurrente através de los años. Los carros son un  medio de transporte personal muy útil para las personas.Sin embargo, en ciertos casos la persona no cuentan con los recursos necesarios para comprar un carro cero kilómetros dadas circunstancias externas. Es por esto que la motivación a realizar este trabajo  fue explorar mediante una base de datos  las características de los carros comprados  de segunda  en una página Web. Mediante técnicas de Python. 
 Algunas preguntas y afirmaciones que motivaron  para la realización del trabajo son :
 
 * Preferencia de carros usados que compran los individuos. 
 
-* La vida útil de los carros es de 5 años. ¿ Qué pasa con los carros que fueron fabricados en  los años 1985? Qué politica pública se podría implementar en Colombia para favorecer la compra de vehiculos amigables con el medio ambiente?
+* La vida útil de los carros es de 5 años. ¿ Qué pasa con los carros que fueron fabricados en  los años 1985? Qué política pública se podría implementar en Colombia para favorecer la compra de vehiculos amigables con el medio ambiente?
 
 * ¿ Cuál es el color más vendido  de carros en la página Web  ?
 
@@ -19,7 +19,7 @@ Algunas preguntas y afirmaciones que motivaron  para la realización del trabajo
 
 
 
-Lo primero que se realizo  fue bajar la base de datos de kaggle entrando con un usuario y contraseña. Dicha base esta pública y es de Data Market(base de España). Cabe aclarar que se utilizó esta base como una muestra representativa hipotética para la venta de carros en miras de que comprar carros usados es una actividad común  en los distintos  países. Para este trabajo se utilizó  la versión número 1 de ventas de coches de segunda mano en las principales plataforma. Dicha base consta de la página  Web de donde se ha realizado la extracción del anuncio  de carros (encriptado).Y de ahí en adelante se cuenta  con las demás variables de interés.Como lo son: precios de ventas, marca del auto, kilómetros recoridos, año de fabricación,etc.
+Lo primero que se realizo  fue bajar la base de datos de kaggle entrando con un usuario y contraseña. Dicha base esta pública y es de Data Market(base de España). Cabe aclarar que se utilizó esta base como una muestra representativa hipotética para la venta de carros en miras de que comprar carros usados es una actividad común  en los distintos  países. Para este trabajo se utilizó  la versión número 1 de ventas de coches de segunda mano en las principales plataformas. Dicha base consta de la página  Web de donde se ha realizado la extracción del anuncio  de carros (encriptado).Es decir,no  tiene el nombre como tal de la página web.Y de ahí en adelante se cuenta  con las demás variables de interés.Como lo son: precios de ventas, marca del auto, kilómetros recoridos, año de fabricación,etc.
 
 #  Método utilizado:
 
@@ -42,15 +42,15 @@ Recomendaciones :
     2) A mayor kilómetros recorridos  del carro el precio disminuye, esto debido al uso del automóvil.    
     3) A mayor kilómetros recorridos menor es el año del auto.    
     4) La mayor cantidad de marcas vendidas son:  VOLKSWAGEN, BMW y MERCEDES-BENZ.    
-    5)La mayoría de carros cuentan con combustión interna de  diesel, seguidos de gasolina.    
-    6)La mayoría de los carros son mecánicos en vez de automáticos.    
-    7)Los colores mas vendidos fueron el blanco,gris/plata y negro.
+    5) La mayoría de carros cuentan con combustión interna de  diesel, seguidos de gasolina.    
+    6) La mayoría de los carros son mecánicos en vez de automáticos.    
+    7) Los colores mas vendidos fueron el blanco,gris/plata y negro.
 
 
 # La aplicación a política Pública
 
 Gracias a los resultados obtenidos en el estudio, se podría asociar dicho tema a la creación de una política pública.
-Política pública:  Incentivar a los cuidadanos a realizar la transición de vehículos usados a vehículos nuevos a travez de créditos blandos. Para disminuir los mayores  gastos en mantenimiento y operación de vehículos usados y así mismo aumentar  el ingreso  destinado para  la canasta familiar de la persona y su recreación. De igual forma  con el uso de carros nuevos  se esperaría que la contaminación del aire no sea tan pronunciada y disminuya ya que los carros nuevos traen tecnologías limpias, innovadoras y eficientes  que sirven para mitigar  las emisiones de gases de efecto invernadero. Es  fundamental apostar por nuevos modelos más sostenibles basados en energías renovables (Fundación aquae,2021).
+Política pública:  Incentivar a los cuidadanos a realizar la transición de vehículos usados a vehículos nuevos atrevés de créditos blandos. Para disminuir los mayores  gastos en mantenimiento y operación de vehículos usados y así mismo aumentar  el ingreso  destinado para  la canasta familiar y la recreación  de la persona. De igual forma  con el uso de carros nuevos  se esperaría que la contaminación del aire no sea tan pronunciada y disminuya ya que los carros nuevos traen tecnologías limpias, innovadoras y eficientes  que sirven para mitigar  las emisiones de gases de efecto invernadero. Es  fundamental apostar por nuevos modelos, más sostenibles basados en energías renovables (Fundación aquae,2021).
 
 
 Bibliografía
